@@ -1,5 +1,7 @@
--- Upgrade from 0.1.0 to 0.1.1
--- Adds a bigint version of the pgxntool-test function
+/*
+ * Upgrade from 0.1.0 to 0.1.1
+ * Adds a bigint version of the pgxntool-test function
+ */
 
 CREATE FUNCTION "pgxntool-test"(
   a bigint
